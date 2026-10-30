@@ -1,0 +1,42 @@
+# ============================================================
+# KnowSearch 知识检索问答平台 依赖清单
+# 安装：pip install -r requirements.txt
+#
+# 建议 Python 版本：3.10 - 3.12
+#
+# 提示：sentence-transformers 会自动安装 PyTorch（CPU 版约数百 MB）。
+#       网络较慢时可先手动安装 CPU 版：
+#       pip install torch --index-url https://download.pytorch.org/whl/cpu
+#
+# 版本说明：chromadb 0.5.23 将 tokenizers 锁定为 <=0.20.3，
+# 而较新的 transformers(>=4.50) 要求 tokenizers>=0.21，二者冲突；
+# 因此这里固定一套互相兼容的版本组合。
+# ============================================================
+
+# Web 界面框架（固定 5.x：6.x 会引入 huggingface-hub 2.x，与下方 transformers 冲突）
+gradio>=5.0,<6.0
+
+# 本地向量数据库（0.5.x，其 tokenizers 依赖锁定 <=0.20.3）
+chromadb==0.5.23
+
+# 中文嵌入模型（固定 3.x，兼容本项目的 SentenceTransformer(device=...).encode(normalize_embeddings=...) API）
+sentence-transformers>=3.0,<4.0
+
+# 与 chromadb 的 tokenizers<=0.20.3 约束保持兼容（transformers 4.50+ 要求 tokenizers>=0.21）
+transformers==4.46.3
+tokenizers==0.20.3
+
+# 统一 huggingface-hub 主版本，避免 gradio/transformers 因主版本不一致而冲突
+huggingface-hub>=0.25,<1.0
+
+# OpenAI 兼容 API 客户端（DeepSeek / 硅基流动 / Ollama / vLLM）
+openai>=1.40,<2.0
+
+# 文档解析：PDF
+pypdf>=4.0,<6.0
+
+# 文档解析：DOCX
+python-docx>=1.1,<2.0
+
+# 读取 .env 配置文件
+python-dotenv>=1.0,<2.0

@@ -1,0 +1,23 @@
+﻿C:\Users\ljy09\.conda\envs\knowsearch\python.exe : Failed to send telemetry event ClientStartEvent: capture() takes 1 p
+ositional argument but 3 were given
+At line:15 char:1294
++ ... t@trae.ai'; C:\Users\ljy09\.conda\envs\knowsearch\python.exe d:\RAG\a ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Failed to send ...ut 3 were given:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+d:\RAG\app.py:1437: DeprecationWarning: The 'theme' parameter in the Blocks constructor will be removed in Gradio 6.0. 
+You will need to pass 'theme' to Blocks.launch() instead.
+  with gr.Blocks(
+d:\RAG\app.py:1437: DeprecationWarning: The 'css' parameter in the Blocks constructor will be removed in Gradio 6.0. Yo
+u will need to pass 'css' to Blocks.launch() instead.
+  with gr.Blocks(
+d:\RAG\app.py:1437: DeprecationWarning: The 'js' parameter in the Blocks constructor will be removed in Gradio 6.0. You
+ will need to pass 'js' to Blocks.launch() instead.
+  with gr.Blocks(
+d:\RAG\app.py:1572: DeprecationWarning: The default value of 'allow_tags' in gr.Chatbot will be changed from False to T
+rue in Gradio 6.0. You will need to explicitly set allow_tags=False if you want to disable tags in your chatbot.
+  chatbot = gr.Chatbot(
+Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given

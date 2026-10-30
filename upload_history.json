@@ -1,0 +1,76 @@
+{
+  "ljy": [
+    {
+      "time": "2026-10-30 17:23:05",
+      "doc_name": "408统考知识点.txt",
+      "action": "新入库",
+      "file_size": "9.0 KB",
+      "chunk_count": 8
+    },
+    {
+      "time": "2026-10-30 17:21:46",
+      "doc_name": "（全部文档）",
+      "action": "清空知识库",
+      "file_size": "-",
+      "chunk_count": 8
+    },
+    {
+      "time": "2026-10-30 17:13:29",
+      "doc_name": "408统考知识点.txt",
+      "action": "新入库",
+      "file_size": "9.0 KB",
+      "chunk_count": 8
+    },
+    {
+      "time": "2026-10-30 17:07:41",
+      "doc_name": "无名杀十周年.txt",
+      "action": "删除",
+      "file_size": "-",
+      "chunk_count": 1
+    },
+    {
+      "time": "2026-10-30 17:07:39",
+      "doc_name": "408统考知识点.txt",
+      "action": "删除",
+      "file_size": "-",
+      "chunk_count": 8
+    },
+    {
+      "time": "2026-10-30 16:53:09",
+      "doc_name": "无名杀十周年.txt",
+      "action": "新入库",
+      "file_size": "237 B",
+      "chunk_count": 1
+    },
+    {
+      "time": "2026-10-30 16:18:59",
+      "doc_name": "408统考知识点.txt",
+      "action": "新入库",
+      "file_size": "9.0 KB",
+      "chunk_count": 8
+    },
+    {
+      "time": "2026-10-30 16:03:57",
+      "doc_name": "408统考知识点.txt",
+      "action": "删除",
+      "file_size": "-",
+      "chunk_count": 8
+    },
+    {
+      "time": "2026-10-30 15:58:02",
+      "doc_name": "408统考知识点.txt",
+      "action": "新入库",
+      "file_size": "9.0 KB",
+      "chunk_count": 8
+    }
+  ],
+  "demo": [
+    {
+      "time": "2026-10-30 20:27:13",
+      "doc_name": "408统考知识点.txt",
+      "action": "新入库",
+      "file_size": "9.0 KB",
+      "chunk_count": 8
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+﻿python.exe : '(ReadTimeoutError("HTTPSConnectionPool(host='hf-mirror.com', port=443): Read timed out. (read timeout=60)
+"), '(Request ID: e1823387-9267-4177-a822-2a100b7cce66)')' thrown while requesting HEAD https://hf-mirror.com/BAAI/bge-
+small-zh-v1.5/resolve/main/modules.json
+At line:15 char:2826
++ ... UT = "120"; & "C:\Users\ljy09\.conda\envs\knowsearch\python.exe" -c " ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ('(ReadTimeoutEr...in/modules.json:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Retrying in 1s [Retry 1/5].
