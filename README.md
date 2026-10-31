@@ -90,4 +90,4 @@ python app.py
 | 团队 / 个人名称 | 719 |
 | 团队成员 | 李佳原 燕志林 江明哲 |
 | 联系方式 | 15738459570 |
-| 项目地址 | 【待补充，如 GitHub 仓库链接】 |
+| 项目地址 | https://github.com/yjl986/know-search1 |
